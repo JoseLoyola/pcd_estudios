@@ -48,7 +48,7 @@ label values discapacidad discapacidad
 
 gen id=conglome+vivienda+hogar+codperso
 
-// Acoplamos la base con la información de educación superio de la persona a la base que estamos usando como llave la variable id 
+// Acoplamos la base con la información de educación superio de la persona a la base que estamos utilizando, usando como llave la variable id 
 
 merge 1:1 id using "$rutasave\base_educ_sup.dta"
 
